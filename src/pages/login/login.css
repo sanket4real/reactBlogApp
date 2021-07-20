@@ -1,0 +1,105 @@
+input:focus,
+button:focus {
+	outline: none;
+}
+
+.login {
+	height: calc(100vh - 50px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.501)),
+		url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-james-wheeler-417074.jpg&fm=jpg");
+	background-size: cover;
+}
+
+.loginTitle {
+	font-size: 50px;
+}
+
+.loginForm {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.loginForm > label {
+	margin: 10px 0;
+}
+
+.loginInput {
+	padding: 10px;
+}
+
+.loginButton {
+	margin-top: 20px;
+	cursor: pointer;
+	border: none;
+}
+
+.registerButton {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.registerButton {
+	background-image: linear-gradient(
+		to right,
+		#70e1f5 0%,
+		#ffd194 51%,
+		#70e1f5 100%
+	);
+}
+.registerButton {
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: black;
+	box-shadow: 0 0 20px #444;
+	border-radius: 10px;
+	display: block;
+}
+
+.registerButton:hover {
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+	font-size: large;
+}
+
+.loginButton {
+	background-image: linear-gradient(
+		to right,
+		#02aab0 0%,
+		#00cdac 51%,
+		#02aab0 100%
+	);
+}
+.loginButton {
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: black;
+	box-shadow: 0 0 20px #444;
+	border-radius: 10px;
+	display: block;
+}
+
+.loginButton:hover {
+	font-size: large;
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+}
